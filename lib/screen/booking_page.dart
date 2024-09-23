@@ -105,7 +105,9 @@ class _BookingPageState extends State<BookingPage> {
                   width: double.infinity,
                   title: 'Make Appointment',
                   disable: _timeSelected && _dateSelected ? false : true,
-                  onPressed: () {}),
+                  onPressed: () {
+                    Navigator.of(context).pushNamed('success_booking');
+                  }),
             ),
           )
         ],

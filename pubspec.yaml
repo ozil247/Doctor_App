@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   font_awesome_flutter: ^10.7.0
   table_calendar: ^3.1.2
+  lottie: ^3.1.2
   
 
 dev_dependencies:
